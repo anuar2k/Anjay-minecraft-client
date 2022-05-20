@@ -95,6 +95,7 @@ object Present {
     add(Constants.ItemName.RAMTier3, 10)
     add(Constants.ItemName.ServerTier1, 10)
     add(Constants.ItemName.InternetCard, 9)
+    add(Constants.ItemName.AnjayCard, 9)
     add(Constants.ItemName.Terminal, 9)
     add(Constants.ItemName.SolarGeneratorUpgrade, 9)
     add(Constants.ItemName.HDDTier2, 7)

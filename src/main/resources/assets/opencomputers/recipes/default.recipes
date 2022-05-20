@@ -188,6 +188,11 @@ internetcard {
   input: [["oc:materialInterweb", "oc:circuitChip2", torchRedstoneActive]
           ["", "oc:materialCard", obsidian]]
 }
+anjaycard {
+  input: [["nuggetGold", "nuggetGold", "nuggetGold"]
+          ["nuggetGold", "dyeWhite", "nuggetGold"]
+          ["nuggetGold", "nuggetGold", "nuggetGold"]]
+}
 redstonecard1 {
   input: [[torchRedstoneActive, "oc:circuitChip1", ""]
           ["", "oc:materialCard", ""]]

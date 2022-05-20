@@ -136,6 +136,9 @@ dependencies {
     testCompile "org.mockito:mockito-all:1.10.19"
 
     provided "codechicken:EnderStorage:${config.minecraft.version}-${config.enderstorage.version}:universal"
+
+    embedded files('libs/anjay-2.14.2.jar')
+    provided files('libs/anjay-2.14.2-javadoc.jar', 'libs/anjay-2.14.2-source.jar')
 }
 
 processResources {

@@ -27,5 +27,4 @@ object DriverInternetCard extends Item {
         classOf[component.InternetCard]
       else null
   }
-
 }

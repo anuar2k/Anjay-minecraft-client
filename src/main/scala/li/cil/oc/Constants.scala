@@ -51,6 +51,7 @@ object Constants {
     final val Alu = "alu"
     final val Analyzer = "analyzer"
     final val AngelUpgrade = "angelupgrade"
+    final val AnjayCard = "anjaycard"
     final val APUCreative = "apucreative"
     final val APUTier1 = "apu1"
     final val APUTier2 = "apu2"
@@ -173,10 +174,9 @@ object Constants {
   }
 
   object DeviceInfo {
-
     final val DefaultVendor = "MightyPirates GmbH & Co. KG"
     final val Scummtech = "Scummtech, Inc."
-
+    final val AVSystem = "AVSystem Sławomir Wolf sp. j."
   }
 
 }

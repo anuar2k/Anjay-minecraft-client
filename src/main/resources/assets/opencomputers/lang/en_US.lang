@@ -41,6 +41,7 @@ tile.oc.transposer.name=Transposer
 tile.oc.waypoint.name=Waypoint
 
 # Items
+item.oc.anjaycard.name=Anjay LwM2M Client Card
 item.oc.abstractbuscard.name=Abstract Bus Card
 item.oc.acid.name=Grog
 item.oc.alu.name=Arithmetic Logic Unit (ALU)

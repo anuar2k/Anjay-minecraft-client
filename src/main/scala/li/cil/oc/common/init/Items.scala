@@ -268,6 +268,7 @@ object Items extends ItemAPI {
       safeGetStack(Constants.ItemName.RedstoneCardTier2),
       safeGetStack(Constants.ItemName.WirelessNetworkCardTier2),
       safeGetStack(Constants.ItemName.InternetCard),
+      safeGetStack(Constants.ItemName.AnjayCard),
 
       LuaStateFactory.setDefaultArch(safeGetStack(Constants.ItemName.CPUTier3)),
       safeGetStack(Constants.ItemName.RAMTier6),
@@ -449,6 +450,7 @@ object Items extends ItemAPI {
     Recipes.addSubItem(new item.NetworkCard(cards), Constants.ItemName.NetworkCard, "oc:lanCard")
     Recipes.addSubItem(new item.WirelessNetworkCard(cards, Tier.Two), Constants.ItemName.WirelessNetworkCardTier2, "oc:wlanCard2")
     Recipes.addSubItem(new item.InternetCard(cards), Constants.ItemName.InternetCard, "oc:internetCard")
+    Recipes.addSubItem(new item.AnjayCard(cards), Constants.ItemName.AnjayCard, "oc:anjayCard")
     Recipes.addSubItem(new item.LinkedCard(cards), Constants.ItemName.LinkedCard, "oc:linkedCard")
 
     // 1.5.13
